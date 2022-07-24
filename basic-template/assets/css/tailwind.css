@@ -918,6 +918,10 @@ video {
   padding-bottom: 120px;
 }
 
+.pt-500 {
+  padding-top: 20rem;
+}
+
 .absolute {
   position: absolute;
 }
@@ -1484,8 +1488,8 @@ p {
 }
 
 .single-team {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
   overflow: hidden;
   transition-duration: 300ms;
   border-radius: 0.5rem;
@@ -1564,7 +1568,7 @@ p {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   transition-duration: 300ms;
   --bg-opacity: 1;
   background-color: #fff;

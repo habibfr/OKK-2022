@@ -342,3 +342,35 @@ $(function () {
       retina_detect: !0,
     });
 });
+
+function openModal() {
+  var mdl = document.getElementById("myModal");
+  mdl.style.display = "block";
+}
+
+function closeModal() {
+  var mdl = document.getElementById("myModal");
+  mdl.style.display = "none";
+  const alert = Swal.fire({
+    title: "<strong>Pengumuman</strong>",
+    html: "Lorem ipsum dolor sit amet,consetetur sadipscing elitr seddiam nonu eirmod tempor invidunt labore and other HTML tags",
+    focusConfirm: true,
+    confirmButtonText: "Oke",
+    showClass: {
+      popup: "animate__animated animate__fadeInDown",
+    },
+    hideClass: {
+      popup: "animate__animated animate__fadeOutUp",
+    },
+  });
+}
+
+var swiper = new Swiper(".mySwiper", {
+  effect: "cards",
+  grabCursor: true,
+});
+
+$(".question-and-answer").click(function () {
+  $(this).find(".answer").toggleClass("hidden");
+  $(this).find(".question-chevron").toggleClass("hidden");
+});

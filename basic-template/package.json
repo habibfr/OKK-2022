@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tailwindcss": "^1.7.6"
+    "autoprefixer": "^10.4.7",
+    "popup-simple": "^1.1.8",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
   }
 }

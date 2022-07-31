@@ -346,11 +346,6 @@ $(function () {
 function openModal() {
   var mdl = document.getElementById("myModal");
   mdl.style.display = "block";
-}
-
-function closeModal() {
-  var mdl = document.getElementById("myModal");
-  mdl.style.display = "none";
   const alert = Swal.fire({
     title: "<strong>Pengumuman</strong>",
     html: "Lorem ipsum dolor sit amet,consetetur sadipscing elitr seddiam nonu eirmod tempor invidunt labore and other HTML tags",
@@ -363,6 +358,11 @@ function closeModal() {
       popup: "animate__animated animate__fadeOutUp",
     },
   });
+}
+
+function closeModal() {
+  var mdl = document.getElementById("myModal");
+  mdl.style.display = "none";
 }
 
 var swiper = new Swiper(".mySwiper", {

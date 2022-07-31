@@ -1777,7 +1777,6 @@ p {
   background-position: right;
 }
 
-
 .swiper-slide {
   display: flex;
   align-items: center;
@@ -1789,8 +1788,8 @@ p {
 }
 
 .swiper {
-  width: 240px;
-  height: 370px;
+  width: 280px;
+  height: 380px;
 }
 
 .swiper-slide:nth-child(1n) {
@@ -1805,13 +1804,10 @@ p {
   background-color: rgb(10, 184, 111);
 }
 
-
-.faq{
+.faq {
   margin: 0.2rem 0.1rem;
   cursor: pointer;
 }
-
-
 
 @media (min-width: 640px) {
   .sm\:container {

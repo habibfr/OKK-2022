@@ -1788,8 +1788,7 @@ p {
 }
 
 .swiper {
-  width: 280px;
-  height: 380px;
+  width: 85%;
 }
 
 .swiper-slide:nth-child(1n) {

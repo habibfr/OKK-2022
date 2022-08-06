@@ -1715,8 +1715,8 @@ p {
 
 .footer-social li a {
   display: inline-block;
-  margin-right: 1.5rem;
-  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
   --text-opacity: 1;
   color: #fff;
   color: rgba(255, 255, 255, var(--text-opacity));

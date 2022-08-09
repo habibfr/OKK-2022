@@ -1828,8 +1828,8 @@ p {
 
 .qualification__rounder {
   display: inline-block;
-  width: 13px;
-  height: 13px;
+  width: 15px;
+  height: 15px;
   background-color: blue;
   border-radius: 50%;
 }

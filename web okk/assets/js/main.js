@@ -57,9 +57,13 @@ $(function () {
     speed: 800,
     arrows: false,
     centerMode: true,
-    centerPadding: "0",
-    slidesToShow: 3,
-    slidesToScroll: 4,
+    centerPadding: "60px",
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1200,
@@ -87,6 +91,12 @@ $(function () {
         },
       },
     ],
+  });
+
+  $(".carousel").slick({
+    slidesToShow: 3,
+    dots: true,
+    centerMode: true,
   });
 
   //===== Back to top
@@ -365,12 +375,12 @@ function closeModal() {
   mdl.style.display = "none";
 }
 
-var swiper = new Swiper(".mySwiper", {
-  effect: "cards",
-  grabCursor: true,
-});
+// var swiper = new Swiper(".mySwiper", {
+//   effect: "cards",
+//   grabCursor: true,
+// });
 
-$(".question-and-answer").click(function () {
-  $(this).find(".answer").toggleClass("hidden");
-  $(this).find(".question-chevron").toggleClass("hidden");
-});
+// $(".question-and-answer").click(function () {
+//   $(this).find(".answer").toggleClass("hidden");
+//   $(this).find(".question-chevron").toggleClass("hidden");
+// });

@@ -932,7 +932,7 @@ video {
   position: relative;
 }
 
-/* .sticky {
+/* .test {
   position: -webkit-sticky;
   position: sticky;
 } */
@@ -1160,7 +1160,7 @@ p {
   background-color: transparent;
 }
 
-.sticky {
+.test {
   position: fixed;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1193,7 +1193,7 @@ p {
   margin: 6px 0;
 }
 
-.sticky .toggler-icon {
+.test .toggler-icon {
   --bg-opacity: 1;
   background-color: #1a202c;
   background-color: rgba(26, 32, 44, var(--bg-opacity));
@@ -1238,7 +1238,7 @@ p {
   transition-duration: 300ms;
 }
 
-.sticky .navbar-nav .nav-item a {
+.test .navbar-nav .nav-item a {
   --text-opacity: 1;
   color: #1a202c;
   color: rgba(26, 32, 44, var(--text-opacity));
@@ -1252,8 +1252,8 @@ p {
 
 .show .navbar-nav .nav-item.active a,
 .show .navbar-nav .nav-item a:hover,
-.sticky .navbar-nav .nav-item.active a,
-.sticky .navbar-nav .nav-item a:hover {
+.test .navbar-nav .nav-item.active a,
+.test .navbar-nav .nav-item a:hover {
   --text-opacity: 1;
   color: orange;
   color: rgba(54, 28, 193, var(--text-opacity));
